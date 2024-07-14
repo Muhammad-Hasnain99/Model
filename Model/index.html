@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Model Project</title>
+</head>
+
+<body>
+    <header class="main-box flex justify-center items-center  pt-[14rem] ">
+        <div class="title text-center rounded-xl bg-white w-[350px] h-[200px] pt-14">
+            <h1 class=" text-3xl font-mono font-bold">Model Project</h1>
+            <button
+                class="open-btn bg-[rgb(25,75,72)] hover:bg-white hover:border-2 hover:border-[rgb(25,75,72)] hover:text-black text-sm p-1 rounded-md mt-4 text-white">
+                Open Model
+            </button>
+        </div>
+    </header>
+
+
+    <div
+        class="overlay-box">
+        <div class="title rounded-xl bg-white mt-[-12rem] w-[350px] h-[200px] relative">
+            <button class="close-btn border-2 ">
+                <i class='bx bx-x absolute top-0 right-0 text-3xl font-bold hover:font-medium'
+                    style='color:#b91f1f'></i>
+            </button>
+            <div class="flex  justify-center items-center mt-14">
+                <h1 class=" text-xl font-mono font-bold">Model Content</h1>
+            </div>
+        </div>
+
+</body>
+<script src="server.js"></script>
+</html>
